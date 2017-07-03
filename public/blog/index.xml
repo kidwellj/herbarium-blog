@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on The Backgarden Herbarium</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on The Backgarden Herbarium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Apr 2017 16:42:50 +0100</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to the Herbarium</title>
+      <link>/blog/2017-06-25-welcome/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:50 +0100</pubDate>
+      
+      <guid>/blog/2017-06-25-welcome/</guid>
+      <description>There&amp;rsquo;s this terrific series of books by Ellis Peters about a medieval monk Brother Cadfael. When he&amp;rsquo;s not solving murders and other mysteries that crop up around his monastery, he&amp;rsquo;s working in the herbarium. The BBC production of Cadfael is good fun, and I remember being particularly captivated by the sight of his herbarium. When I first watched it, shortly after we moved our family from America to the Scotland, I thought to myself: &amp;ldquo;Self.</description>
+    </item>
+    
+  </channel>
+</rss>

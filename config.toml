@@ -1,0 +1,23 @@
+baseURL = "/"
+url = "http://herbarium.jeremykidwell.info"
+languageCode = "en-us"
+title = "The Backgarden Herbarium"
+tagline = "Wildcrafting, Foraging, and Growing in the comfort of a Birmingham Suburb"
+theme = "kube"
+description = "Join in as I explore some of the old ways through trial and error in the company of British plants"
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "Jeremy Kidwell" # add your company name
+  github = "http://github.com/kidwellj/" # add your github profile name
+  twitter = "https://twitter.com/kidwellj" # add your twitter profile
+  email = "hello@jeremykidwell.info"
+
+[[menu.main]]
+    name = "Herbs"
+    weight = -100
+    url = "/herbs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"

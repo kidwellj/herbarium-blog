@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Herbs on The Backgarden Herbarium</title>
+    <link>/herbs/</link>
+    <description>Recent content in Herbs on The Backgarden Herbarium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jul 2017 21:55:41 +0100</lastBuildDate>
+    
+	<atom:link href="/herbs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Balm of Gilead</title>
+      <link>/herbs/balm_of_gilead/</link>
+      <pubDate>Sat, 01 Jul 2017 21:55:41 +0100</pubDate>
+      
+      <guid>/herbs/balm_of_gilead/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agrimony</title>
+      <link>/herbs/agrimony/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
+      
+      <guid>/herbs/agrimony/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button primary big" href="https://github.com/jeblister/kube/releases/tag/v1.0.1" onclick="_gaq.push(['_trackEvent', 'kube', 'download', '1.0']);">Download</a> <a class="button outline big" href="https://github.com/jeblister/kube" onclick="_gaq.push(['_trackEvent', 'kube', 'github', '1.0.0']);">View on Github</a>
+  </div>
+
+  <div id="blog-shorts">
+    <div class="row gutters auto">
+      <div class="col col-5 offset-2 item">
+{{ range first 4 ((where .Data.Pages.ByDate "Section" "blog").Reverse) }}
+      
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <h4>{{ .Date.Format "2 January 2006" }}</h4>
+        
+        {{ if .Truncated }}
+        {{ .Summary }}
+        <p class="text-right"><a href="{{ .RelPermalink }}">Read More…</a></p>
+        {{ else }}
+        {{ .Content }}
+        {{ end }} 
+    {{ end }}
+
+    </div>
+    <div class="col col-2 item offset-1">
+<h4>The herbs</h4>
+{{ range first 8 ((where .Data.Pages.ByDate "Section" "herbs")) }}
+<ul><li><a href="{{ .Permalink }}">{{ .Title }}</a></li></ul>
+    {{ end }}
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
